@@ -13,10 +13,20 @@ int main(){
     cout<<"\nEnter number\n";
     int value;
     cin>>value;
-    
-    Movie thing=(Movie)value;
-    cout<<"----\n";
-    cout<<thing;
 
+    //converting integer to enum Mivie datatype
+    Movie thing=(Movie)value;
+
+    cout<<"----\n";
+    //!!!Returns INTEGER not ENUM name.
+    cout<<thing<<endl;
+cout<<"----\n";
+cout<<ironman<<endl;
+cout<<wonderwoman<<endl;
+//Enums i think kinda aliases for integers variables
+//What are they are for??
+    int sum=ironman+wonderwoman;
+    cout<<sum;
+    
     return 0;
 }
